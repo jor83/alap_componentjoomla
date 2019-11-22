@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+
+              <field name="id" type="text" default="0" label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ID"
+            readonly="true" class="readonly"
+            description="JGLOBAL_FIELD_ID_DESC" /> 
+
+       <field name="user_id" type="text" size="40" class="inputbox"
+        
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_USER_ID"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_USER_ID" 
+        
+        
+         required="true" 
+        filter="safehtml" /> 
+
+       <field name="zv_name" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_NAME"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_NAME" 
+                
+                
+                
+            menu_published="0"
+            filter="raw"
+            directory_stripext="true"
+            directory_hidenode="true"
+            directory_hidedefault="true"
+            alias_generator="2069411"
+            heading="h4"
+            close="true"
+            option_on="Yes"
+            option_off="Yes">
+     <group label="">
+                <option value=""></option>
+     </group>
+        </field> 
+
+       <field name="zv_apellidopadre" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_APELLIDOPADRE"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_APELLIDOPADRE" 
+                
+                
+                
+            menu_published="0"
+            filter="raw"
+            directory_stripext="true"
+            directory_hidenode="true"
+            directory_hidedefault="true"
+            alias_generator="2069411"
+            heading="h4"
+            close="true"
+            option_on="Yes"
+            option_off="Yes">
+     <group label="">
+                <option value=""></option>
+     </group>
+        </field> 
+
+ 
+		<field name="zv_email" type="email" label="E-mail" description="" validate="email"   /> 
+
+       <field name="zv_usuario" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_USUARIO"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_USUARIO" 
+                
+                
+                
+            menu_published="0"
+            filter="raw"
+            directory_stripext="true"
+            directory_hidenode="true"
+            directory_hidedefault="true"
+            alias_generator="2069411"
+            heading="h4"
+            close="true"
+            option_on="Yes"
+            option_off="Yes">
+     <group label="">
+                <option value=""></option>
+     </group>
+        </field> 
+
+       <field name="zv_password" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_PASSWORD"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_PASSWORD" 
+                
+                
+                
+            menu_published="0"
+            filter="raw"
+            directory_stripext="true"
+            directory_hidenode="true"
+            directory_hidedefault="true"
+            alias_generator="2069411"
+            heading="h4"
+            close="true"
+            option_on="Yes"
+            option_off="Yes">
+     <group label="">
+                <option value=""></option>
+     </group>
+        </field> 
+
+       <field name="zv_password_verify" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_PASSWORD_VERIFY"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_PASSWORD_VERIFY" 
+                
+                
+                
+            menu_published="0"
+            filter="raw"
+            directory_stripext="true"
+            directory_hidenode="true"
+            directory_hidedefault="true"
+            alias_generator="2069411"
+            heading="h4"
+            close="true"
+            option_on="Yes"
+            option_off="Yes">
+     <group label="">
+                <option value=""></option>
+     </group>
+        </field> 
+
+       <field name="zv_direccionpais" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_DIRECCIONPAIS"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_DIRECCIONPAIS" 
+                
+                
+                
+            menu_published="0"
+            filter="raw"
+            directory_stripext="true"
+            directory_hidenode="true"
+            directory_hidedefault="true"
+            alias_generator="2069411"
+            heading="h4"
+            close="true"
+            option_on="Yes"
+            option_off="Yes">
+     <group label="">
+                <option value=""></option>
+     </group>
+        </field> 
+
+       <field name="zv_tipodeafiliacin" type="list"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_TIPODEAFILIACIN"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_TIPODEAFILIACIN" 
+                 default="Individual" 
+                
+                
+            menu_published="0"
+            filter="raw"
+            directory_stripext="true"
+            directory_hidenode="true"
+            directory_hidedefault="true"
+            alias_generator="2069411"
+            heading="h4"
+            close="true"
+            option_on="Yes"
+            option_off="Yes">
+                <option value="Individual">Individual</option>
+                <option value="Institucional">Institucional</option>
+        </field> 
+
+       <field name="zv_tipodocumento" type="list"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_TIPODOCUMENTO"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_TIPODOCUMENTO" 
+                 default="CPF" 
+                
+                
+            menu_published="0"
+            filter="raw"
+            directory_stripext="true"
+            directory_hidenode="true"
+            directory_hidedefault="true"
+            alias_generator="2069411"
+            heading="h4"
+            close="true"
+            option_on="Yes"
+            option_off="Yes">
+                <option value="CPF">CPF</option>
+                <option value="Passaporte">Passaporte</option>
+                <option value="DNI">DNI</option>
+                <option value="Otro">Otro</option>
+        </field> 
+
+       <field name="zv_documento" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_DOCUMENTO"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_DOCUMENTO" 
+                
+                
+                
+            menu_published="0"
+            filter="raw"
+            directory_stripext="true"
+            directory_hidenode="true"
+            directory_hidedefault="true"
+            alias_generator="2069411"
+            heading="h4"
+            close="true"
+            option_on="Yes"
+            option_off="Yes">
+     <group label="">
+                <option value=""></option>
+     </group>
+        </field> 
+
+       <field name="zv_nacionalidad" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_NACIONALIDAD"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_NACIONALIDAD" 
+                
+                
+                
+            menu_published="0"
+            filter="raw"
+            directory_stripext="true"
+            directory_hidenode="true"
+            directory_hidedefault="true"
+            alias_generator="2069411"
+            heading="h4"
+            close="true"
+            option_on="Yes"
+            option_off="Yes">
+     <group label="">
+                <option value=""></option>
+     </group>
+        </field> 
+
+       <field name="zv_fechadenacimiento" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_FECHADENACIMIENTO"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_FECHADENACIMIENTO" 
+                
+                
+                >
+     <group label="">
+                <option value=""></option>
+     </group>
+        </field> 
+
+       <field name="zv_sexo" type="list"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_SEXO"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_SEXO" 
+                
+                
+                 required="true" 
+            option_on="Yes"
+            option_off="Yes">
+                <option value="Femenino">Femenino</option>
+                <option value="Masculino">Masculino</option>
+        </field> 
+
+       <field name="zv_telefono" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_TELEFONO"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_TELEFONO" 
+                
+                
+                
+            menu_published="0"
+            filter="raw"
+            directory_stripext="true"
+            directory_hidenode="true"
+            directory_hidedefault="true"
+            alias_generator="2069411"
+            heading="h4"
+            close="true"
+            option_on="Yes"
+            option_off="Yes">
+     <group label="">
+                <option value=""></option>
+     </group>
+        </field> 
+
+       <field name="zv_avatar" type="media"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_AVATAR"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_AVATAR" 
+                
+                
+                
+            directory="/imagem/cadastramento/">
+     <group label="">
+                <option value=""></option>
+     </group>
+        </field> 
+
+       <field name="zv_aodeafiliacion" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_AODEAFILIACION"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_AODEAFILIACION" 
+                
+                
+                 /> 
+
+       <field name="zv_direccincomplemento" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_DIRECCINCOMPLEMENTO"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_DIRECCINCOMPLEMENTO" 
+                
+                
+                 /> 
+
+       <field name="zv_apellidomadre" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_APELLIDOMADRE"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_APELLIDOMADRE" 
+                
+                
+                 /> 
+
+       <field name="zv_profesion" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_PROFESION"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_PROFESION" 
+                
+                
+                 /> 
+
+       <field name="zv_tipomembresia" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_TIPOMEMBRESIA"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_TIPOMEMBRESIA" 
+                
+                
+                 /> 
+
+       <field name="zv_estadocivil" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_ESTADOCIVIL"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_ESTADOCIVIL" 
+                
+                
+                 /> 
+
+       <field name="zv_emailproblematico" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_EMAILPROBLEMATICO"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_EMAILPROBLEMATICO" 
+                
+                
+                 /> 
+
+       <field name="zv_fechaactualizaciondatos" type="calendar" class="inputbox"
+        
+        
+        
+        
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_FECHAACTUALIZACIONDATOS"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_FECHAACTUALIZACIONDATOS" 
+        filter="safehtml" /> 
+
+       <field name="zv_fechadebaja" type="calendar" class="inputbox"
+        
+        
+        
+        
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_FECHADEBAJA"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_FECHADEBAJA" 
+        filter="safehtml" /> 
+
+       <field name="zv_direccion" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_DIRECCION"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_DIRECCION" 
+                
+                
+                 /> 
+
+       <field name="zv_direccionnumero" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_DIRECCIONNUMERO"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_DIRECCIONNUMERO" 
+                
+                
+                 /> 
+
+       <field name="zv_direccionbarrio" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_DIRECCIONBARRIO"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_DIRECCIONBARRIO" 
+                
+                
+                 /> 
+
+       <field name="zv_direccionciudad" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_DIRECCIONCIUDAD"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_DIRECCIONCIUDAD" 
+                
+                
+                 /> 
+
+       <field name="zv_direccionprovincia" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_DIRECCIONPROVINCIA"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_DIRECCIONPROVINCIA" 
+                
+                
+                 /> 
+
+       <field name="zv_direccioncodigopostal" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_DIRECCIONCODIGOPOSTAL"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_DIRECCIONCODIGOPOSTAL" 
+                
+                
+                 /> 
+
+       <field name="zv_ddi" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_DDI"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_DDI" 
+                
+                
+                 /> 
+
+       <field name="zv_fax" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_FAX"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_FAX" 
+                
+                
+                 /> 
+
+       <field name="zv_emaillaboral" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_EMAILLABORAL"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_EMAILLABORAL" 
+                
+                
+                 /> 
+
+       <field name="zv_direccionlaboralnumero" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_DIRECCIONLABORALNUMERO"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_DIRECCIONLABORALNUMERO" 
+                
+                
+                 /> 
+
+       <field name="zv_institucion" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_INSTITUCION"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_INSTITUCION" 
+                
+                
+                 /> 
+
+       <field name="zv_direccionlaboral" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_DIRECCIONLABORAL"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_DIRECCIONLABORAL" 
+                
+                
+                 /> 
+
+       <field name="zv_direccionlaboralcomplemento" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_DIRECCIONLABORALCOMPLEMENTO"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_DIRECCIONLABORALCOMPLEMENTO" 
+                
+                
+                 /> 
+
+       <field name="zv_direcionlaboralbarrio" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_DIRECIONLABORALBARRIO"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_DIRECIONLABORALBARRIO" 
+                
+                
+                 /> 
+
+       <field name="zv_direccionlaboralciudad" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_DIRECCIONLABORALCIUDAD"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_DIRECCIONLABORALCIUDAD" 
+                
+                
+                 /> 
+
+       <field name="zv_direccionlaboralprovincia" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_DIRECCIONLABORALPROVINCIA"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_DIRECCIONLABORALPROVINCIA" 
+                
+                
+                 /> 
+
+       <field name="zv_direcionlaboralpais" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_DIRECIONLABORALPAIS"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_DIRECIONLABORALPAIS" 
+                
+                
+                 /> 
+
+       <field name="zv_direccionlaboralcodigopostal" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_DIRECCIONLABORALCODIGOPOSTAL"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_DIRECCIONLABORALCODIGOPOSTAL" 
+                
+                
+                 /> 
+
+       <field name="zv_ddilaboral" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_DDILABORAL"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_DDILABORAL" 
+                
+                
+                 /> 
+
+       <field name="zv_telefonolaboral" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_TELEFONOLABORAL"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_TELEFONOLABORAL" 
+                
+                
+                 /> 
+
+       <field name="zv_faxlaboral" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_FAXLABORAL"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_FAXLABORAL" 
+                
+                
+                 /> 
+
+       <field name="zv_titulogrado" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_TITULOGRADO"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_TITULOGRADO" 
+                
+                
+                 /> 
+
+       <field name="zv_titulopostgrado" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_TITULOPOSTGRADO"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_TITULOPOSTGRADO" 
+                
+                
+                 /> 
+
+       <field name="zv_titulonoaplicado" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_TITULONOAPLICADO"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_TITULONOAPLICADO" 
+                
+                
+                 /> 
+
+       <field name="zv_areainteres" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_AREAINTERES"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_AREAINTERES" 
+                
+                
+                
+            menu_published="0"
+            filter="raw"
+            directory_stripext="true"
+            directory_hidenode="true"
+            directory_hidedefault="true"
+            alias_generator="2069411"
+            heading="h4"
+            close="true"
+            option_on="Yes"
+            option_off="Yes">
+     <group label="">
+                <option value=""></option>
+     </group>
+        </field> 
+
+       <field name="zv_instnet" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_INSTNET"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_INSTNET" 
+                
+                
+                 /> 
+
+       <field name="zv_direccioninstnet" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_DIRECCIONINSTNET"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_DIRECCIONINSTNET" 
+                
+                
+                 /> 
+
+       <field name="zv_direccionparticularnet" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_DIRECCIONPARTICULARNET"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_DIRECCIONPARTICULARNET" 
+                
+                
+                 /> 
+
+       <field name="zv_emailpersonalnet" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_EMAILPERSONALNET"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_EMAILPERSONALNET" 
+                
+                
+                 /> 
+
+       <field name="zv_emaillaboralnet" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_EMAILLABORALNET"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_EMAILLABORALNET" 
+                
+                
+                 /> 
+
+       <field name="zv_areasujest" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_AREASUJEST"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_AREASUJEST" 
+                
+                
+                 /> 
+
+       <field name="zv_areanoaplicado" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_AREANOAPLICADO"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_AREANOAPLICADO" 
+                
+                
+                 /> 
+
+       <field name="zv_perteneceasociacion" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_PERTENECEASOCIACION"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_PERTENECEASOCIACION" 
+                
+                
+                 /> 
+
+       <field name="zv_asocnacionalpoblacion" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_ASOCNACIONALPOBLACION"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_ASOCNACIONALPOBLACION" 
+                
+                
+                 /> 
+
+       <field name="zv_perfilacadmico" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_PERFILACADMICO"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_PERFILACADMICO" 
+                
+                
+                 /> 
+
+       <field name="zv_autorizodivulgarmisdatosporalap" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_AUTORIZODIVULGARMISDATOSPORALAP"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_AUTORIZODIVULGARMISDATOSPORALAP" 
+                
+                
+                 /> 
+
+       <field name="zv_socio" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_SOCIO"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_SOCIO" 
+                
+                
+                 /> 
+
+       <field name="zv_otras" type="text"
+                
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_OTRAS"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_OTRAS" 
+                
+                
+                 /> 
+
+       <field name="zv_fechaaprobacion" type="calendar" class="inputbox"
+        
+        
+        
+        
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_ZV_FECHAAPROBACION"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_ZV_FECHAAPROBACION" 
+        filter="safehtml" /> 
+
+       <field name="created_by" type="createdby" default="" 
+            label="COM_ZVCADASTRAMENTO_FORM_LBL_ZVUSUARIOS_CREATED_BY"
+            description="COM_ZVCADASTRAMENTO_FORM_DESC_ZVUSUARIOS_CREATED_BY"  /> 
+
+         <field
+        name="state"
+        type="list"
+        label="JSTATUS"
+        description="JFIELD_PUBLISHED_DESC"
+        class="inputbox"
+        size="1"
+        default="0">
+        <option value="1">JPUBLISHED</option>
+        <option value="0">JUNPUBLISHED</option>
+        <option value="2">JARCHIVED</option>
+        <option value="-2">JTRASHED</option>
+    </field> 
+
+                        <field name="checked_out" type="hidden" filter="unset" />
+        <field name="checked_out_time" type="hidden" filter="unset" />
+
+	</fieldset>
+
+</form>
