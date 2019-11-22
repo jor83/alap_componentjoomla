@@ -1,0 +1,1 @@
+# alap_componentjoomla
